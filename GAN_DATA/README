@@ -1,0 +1,13 @@
+These files are accompany the experiments described in the arXiv paper:
+A Large-Scale Car Dataset for Fine-Grained Categorization and Verification
+L. Yang, P. Luo, C. C. Loy, X. Tang, arXiv:1506.08959, 2015
+http://arxiv.org/abs/1506.08959
+
+The fine-tuned GoogLeNet model for the classification task can be found at:
+https://gist.github.com/bogger/b90eb88e31cd745525ae
+
+Description:
+classification_train.txt and classification_test.txt are the image lists for car classifcation. The image names are listed in the order with the id of corresponding output node of the GoogLeNet model going from 0 to 430.
+We use images from both classification_train.txt and classification_test.txt for training of attribute prediction.
+attribute_test&verification_train.txt is the image list for testing of attribute prediction as well as training of verification models.
+The image lists for testing of verification models are already included in the CompCars dataset.
